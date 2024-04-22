@@ -1,0 +1,62 @@
+.show-users-container{
+    width: 50%;
+    overflow-y: scroll;
+}
+
+.show-users-container > table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.show-users-container > table > thead > tr{
+    background-color: rgb(0, 83, 0);
+    color: #fff;
+}
+
+.show-users-container > table > thead > tr > th{
+    padding: 8px;
+}
+
+/* .show-users-container > table > tbody :nth-child(2){
+    background-color: yellow;
+} */
+
+.show-users-container > table > tbody{
+    overflow: scroll;
+}
+
+.show-users-container > table > tbody > tr > td{
+    padding: 6px;
+    font-size: 0.8rem;
+}
+
+.show-users-container > table > tbody > tr > :last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-users-container > table > tbody > tr > td > span{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.show-users-container > table > tbody > tr > td > span:hover{
+    background-color: rgb(214, 3, 3);
+}
+
+.show-users-container > table > tbody > tr:nth-child(even){
+    background-color: rgb(2, 92, 92);
+    color: #fff;
+}
+
+.show-users-container > table > tbody > tr:nth-child(odd){
+    background-color: rgb(77, 159, 236);
+    color: #fff;
+}

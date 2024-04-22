@@ -1,0 +1,68 @@
+.user-delete-confirmation-modal-outer-container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.user-delete-confirmation-modal-inner-container{
+    /* display: flex;
+    align-items: center; */
+    width: 250px;
+    height: 90px;
+    background-color: #fff;
+    padding: 8px 8px 16px 8px;
+    border-radius: 8px;
+}
+
+.user-delete-confirmation-modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.user-delete-confirmation-modal-body > h1{
+    font-size: 1rem;
+}
+
+.user-delete-confirmation{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.user-delete-confirmation :nth-child(1){
+    width: 100%;
+    padding: 4px 0px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.user-delete-confirmation :nth-child(1):hover{
+    background-color: rgb(201, 5, 5);
+    cursor: pointer;
+}
+
+.user-delete-confirmation :nth-child(2){
+    width: 100%;
+    padding: 4px 0px;
+    border: none;
+    background-color: rgb(218, 242, 248);
+    color: #032d41;
+    border-radius: 4px;
+}
+
+.user-delete-confirmation :nth-child(2):hover{
+    background-color: rgb(183, 207, 212);
+    cursor: pointer;
+}
+

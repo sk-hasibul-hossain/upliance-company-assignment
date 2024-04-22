@@ -1,0 +1,87 @@
+.user-data-form-container{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.user-daya-form-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    width: 80%;
+    margin: 16px 0px;
+}
+
+.user-daya-form-wrapper :nth-child(4) > label{
+    left: 36px;
+    z-index: 1;
+}
+
+.wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper > label{
+    position: absolute;
+    top: -12px;
+    left: 8px;
+    background-color: #fff;
+    font-size: 0.925rem;
+}
+
+.inner-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 8px 4px;
+    border: 1px solid rgb(219, 219, 219);
+    outline: none;
+}
+
+input[type="text"]:focus{
+    border: 1px solid rgb(34, 197, 202) !important;
+}
+
+input[type="number"]{
+    width: 100%;
+    padding: 8px 4px;
+    border: 1px solid rgb(219, 219, 219);
+    outline: none;
+}
+
+input[type="number"]:focus{
+    border: 1px solid rgb(34, 197, 202) !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button, ::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+.user-daya-form-wrapper > .submit-btn{
+    width: 100%;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: rgb(5, 121, 121);
+    color: #fff;
+    border: none;
+    padding: 8px 0px;
+    cursor: pointer;
+}
+
+.inner-wrapper > span{
+    display: flex;
+    align-items: center;
+}

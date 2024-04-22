@@ -1,0 +1,41 @@
+.counter-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(102, 102, 102,0.2); */
+  /* background: red; */
+  border: 1px solid rgb(220, 243, 220);
+}
+
+.counter-container > h1{
+  color: rgb(45, 221, 21);
+}
+
+.counter-container > button{
+  border: none;
+  margin-top: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  outline: none;
+  background-color: rgb(6, 197, 172);
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+.counter-bar{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  transition: background-color 0.5s ease;
+}
+
+.active{
+  background-color: rgb(3, 175, 152) !important;
+}

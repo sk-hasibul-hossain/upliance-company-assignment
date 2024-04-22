@@ -1,0 +1,34 @@
+.dashboard-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    height: 100vh;
+}
+
+.section-one{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.section-two{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+@media only screen and(min-width: 600px) {
+    .section-one{
+        flex-direction: column;
+    }
+    .section-two{
+        flex-direction: column;
+    }
+}

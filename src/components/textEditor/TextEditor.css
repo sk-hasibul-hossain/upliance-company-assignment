@@ -1,0 +1,66 @@
+.text-editor-container{
+    width: 50%;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+.text-editor-body{
+    height: 80%;
+    width: 100%;
+}
+
+.text-editor{
+    /* border: 1px solid green; */
+    height: 80%;
+    width: 100% !important;
+    text-wrap: wrap;
+}
+
+.text-editor-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.text-editor-footer > button{
+    border: none;
+    padding: 8px 16px;
+    background-color: rgb(7, 117, 117);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.text-editor-footer > button:hover{
+    cursor: pointer;
+    background-color: rgb(4, 87, 87);
+}
+
+/* .text-area-text-format{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 4px 8px;
+}
+
+.text-area-text-format :nth-child(2){
+    padding: 0px 6px;
+}
+
+.text-area-text-format :nth-child(3){
+    border-bottom: 1px solid #000;
+}
+
+.text-area-text-format > span{
+    padding: 0px 4px;
+}
+
+.text-area-text-format > span:hover{
+    background-color: rgb(172, 173, 173);
+    border-radius: 2px;
+    cursor: pointer;
+}
+.text-area-container{
+    height: 100%;
+}
+.text-area-container > textarea{
+    width: 100%;
+    height: 90%;
+} */
